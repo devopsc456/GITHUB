@@ -61,8 +61,3 @@ git pull <remote_repo_alias_name> master
 # Example
 git pull gitpractice master
 ```
-
-
-
-Do you want me to also **add diagrams/flow illustrations** (in Markdown with Mermaid) so that it visually explains fast-forward vs. merge conflict?
-```
