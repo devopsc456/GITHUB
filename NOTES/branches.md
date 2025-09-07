@@ -124,4 +124,3 @@ Example:
 ```bash
 git pull gitpartice master
 ```
-
