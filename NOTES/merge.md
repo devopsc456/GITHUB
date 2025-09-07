@@ -31,3 +31,22 @@
    java.txt | 1 +
    1 file changed, 1 insertion(+)
    ```
+
+
+# What is Merge Conflict?
+
+A **merge conflict** occurs when two developers update the **same file** and the **same line**, resulting in a conflict during merging.
+
+---
+
+## Steps to Reproduce and Resolve Merge Conflict
+
+1. **Update the file in `master` branch** and commit the changes.  
+2. **Update the same file in `development` branch** and commit the changes.  
+3. Go to the **`master` branch** and run:  
+   ```bash
+   git merge development
+````
+
+4. **Resolve the conflict** 
+by removing the unused/conflicting lines and then commit the changes.
