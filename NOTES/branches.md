@@ -91,8 +91,6 @@ git push <alias_name> :branch_name   # removes branch from remote repo
    1 file changed, 1 insertion(+)
    ```
 
----
-
 ## What is merge conflict?
 
 👉 A merge conflict happens when two developers update the **same file and the same line**.
