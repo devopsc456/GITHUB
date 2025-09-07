@@ -50,3 +50,25 @@ A **merge conflict** occurs when two developers update the **same file** and the
 
 4. **Resolve the conflict** 
 by removing the unused/conflicting lines and then commit the changes.
+
+
+
+# How to Get File Changes from One Branch to Another in a Remote Repo
+
+To get the file changes from one branch to another branch in a remote repository, follow these steps:
+
+1. Make sure you are on the **development** branch (or the branch you want to update).
+
+2. Pull the changes from the remote `master` branch:
+
+```bash
+git pull <remote_repo_alias_name> master
+````
+
+**Example:**
+
+```bash
+git pull gitpractice master
+```
+
+This will fetch the changes from the remote `master` branch into your current `development` branch.
