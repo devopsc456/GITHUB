@@ -58,3 +58,85 @@ git branch -d <branch_name>
 * `-d` → safely deletes the branch only if it is already merged.
 * No risk of losing commits since everything is already in the target branch.
 
+
+
+# Git Stash Guide
+
+## What is the stash?
+
+Stash is a **temporary save**.  
+When a developer is in the middle of work and the file changes are not ready to commit, they can **stash** the changes and switch to another branch without losing the progress.  
+
+---
+
+## How to show list of the stashes?
+
+```bash
+git stash list
+````
+
+👉 Lists down all the stashes.
+
+---
+
+## How to create the stash?
+
+```bash
+git stash save "comments"
+```
+
+👉 Creates a stash with the given comment.
+
+---
+
+## How to unstash the changes from stash?
+
+```bash
+git stash apply <stash_id>
+```
+
+👉 Applies the changes from the given stash.
+
+---
+
+## How to remove the recent stash?
+
+```bash
+git stash drop
+```
+
+👉 Removes the most recent stash.
+
+---
+
+## How to remove the specific stash?
+
+```bash
+git stash drop <stash_id>
+```
+
+👉 Removes a particular stash by its ID.
+
+---
+
+## How to delete all the stashes at a time?
+
+```bash
+git stash clear
+```
+
+👉 Deletes all the stashes.
+
+---
+
+## How to unstash the changes and delete the stash at a time?
+
+```bash
+git stash pop
+```
+
+👉 Applies the latest stash and deletes it immediately.
+
+
+
+
